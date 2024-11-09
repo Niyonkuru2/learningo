@@ -1,0 +1,20 @@
+GET http://127.0.0.1:8000/api/users/
+####
+POST http://127.0.0.1:8000/api/users/create
+####
+GET http://127.0.0.1:8000/api/users/1
+#####
+PUT http://127.0.0.1:8000/api/users/1
+#####
+DELETE http://127.0.0.1:8000/api/users/1
+######
+GET http://127.0.0.1:8000/api/authors/
+#####
+POST http://127.0.0.1:8000/api/authors/
+######
+GET http://127.0.0.1:8000/api/authors/1
+######
+PUT http://127.0.0.1:8000/api/authors/1
+#####
+DELETE http://127.0.0.1:8000/api/authors/1
+
